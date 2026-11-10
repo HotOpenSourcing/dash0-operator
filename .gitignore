@@ -27,7 +27,6 @@ go.work
 
 # editor and IDE paraphernalia
 .idea
-.vscode
 *.swp
 *.swo
 *.sln
@@ -51,3 +50,5 @@ test-resources/*.env
 
 # the intermediate files of the OLM bundle generation and test bundles (make olm-bundle, make olm-test-bundle)
 /olm/build/
+config.bat
+node_modules
